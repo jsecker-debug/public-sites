@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Privacy policy and support for Haunts, the trip planner for iPhone.">
+<title>Haunts Privacy &amp; Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #f4f6f5;
+    --surface: #ffffff;
+    --ink: #17211f;
+    --muted: #56655f;
+    --rule: #d9e0dd;
+    --accent: #2c6b5a;
+    --accent-soft: #e2eeea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #101615; --surface: #172020; --ink: #e5ecea; --muted: #9aaba5;
+      --rule: #2a3533; --accent: #7cc4ae; --accent-soft: #1d2d29;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #101615; --surface: #172020; --ink: #e5ecea; --muted: #9aaba5;
+    --rule: #2a3533; --accent: #7cc4ae; --accent-soft: #1d2d29;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.6 "Source Sans 3", -apple-system, "Segoe UI", sans-serif;
+    padding-inline: 20px;
+    padding-block: 40px 64px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; display: grid; gap: 48px; }
+  header { display: grid; gap: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .pin {
+    width: 40px; height: 40px; border-radius: 50% 50% 50% 4px; transform: rotate(-45deg);
+    background: var(--accent); display: grid; place-items: center; flex: none;
+  }
+  .pin::after { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); }
+  h1, h2, h3 { font-family: "Bricolage Grotesque", "Source Sans 3", sans-serif; text-wrap: balance; margin: 0; }
+  h1 { font-size: 2.2rem; line-height: 1.1; letter-spacing: -0.01em; }
+  h2 { font-size: 1.6rem; line-height: 1.2; }
+  h3 { font-size: 1.1rem; line-height: 1.3; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  .lede { color: var(--muted); font-size: 1.08rem; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  nav a {
+    font-weight: 600; font-size: 0.95rem; color: var(--accent); text-decoration: none;
+    background: var(--accent-soft); padding: 6px 14px; border-radius: 999px;
+  }
+  nav a:hover, nav a:focus-visible { text-decoration: underline; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { display: grid; gap: 28px; scroll-margin-top: 24px; }
+  .eyebrow {
+    text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; color: var(--muted);
+  }
+  .block { display: grid; gap: 10px; padding-top: 22px; border-top: 1px solid var(--rule); }
+  .summary {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 12px;
+    padding: 20px 22px; display: grid; gap: 10px;
+  }
+  .summary ul { list-style: none; padding: 0; }
+  .summary li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; }
+  .summary li::before { content: "✓"; color: var(--accent); font-weight: 700; }
+  .contact {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 16px 20px;
+  }
+  .contact code {
+    font: 600 1rem/1.4 ui-monospace, "SF Mono", Menlo, monospace; user-select: all; overflow-wrap: anywhere;
+  }
+  details { border-top: 1px solid var(--rule); padding-top: 16px; }
+  details:last-of-type { border-bottom: 1px solid var(--rule); padding-bottom: 16px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 1.05rem; }
+  details > div { display: grid; gap: 10px; padding-top: 10px; color: var(--ink); }
+  footer { color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 480px) { h1 { font-size: 1.8rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><div class="pin" aria-hidden="true"></div><span class="eyebrow">Haunts for iPhone</span></div>
+    <h1>Privacy &amp; Support</h1>
+    <p class="lede">Haunts is a trip planner for saving places, building day-by-day plans and sharing a trip map with friends. This page explains what happens to your data and how to get help.</p>
+    <nav aria-label="Sections">
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <section id="privacy" aria-labelledby="privacy-h">
+    <div style="display:grid;gap:6px">
+      <span class="eyebrow">Effective 24 September 2026</span>
+      <h2 id="privacy-h">Privacy Policy</h2>
+    </div>
+
+    <div class="summary">
+      <h3>The short version</h3>
+      <ul>
+        <li>We don't collect your data. There are no Haunts accounts and no Haunts servers.</li>
+        <li>Your trips stay on your iPhone and, if you use iCloud, in your own iCloud account. We can't see them.</li>
+        <li>No analytics, advertising, tracking or third-party SDKs.</li>
+        <li>Your location is used on your device only and is never sent to us.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Who we are</h3>
+      <p>Haunts is published by Joshua Secker. If you have a question about this policy, email <a href="mailto:js.apps.support@gmail.com">js.apps.support@gmail.com</a>.</p>
+    </div>
+
+    <div class="block">
+      <h3>What Haunts stores and where</h3>
+      <p>Trips, saved places, lists, tags, notes, itineraries, visit records, photos you attach to visits and the display name you set in Settings are stored in the app on your iPhone.</p>
+      <p>If you're signed in to iCloud, Haunts syncs this data to the private database in your iCloud account using Apple's CloudKit. It's stored under your Apple Account, and the developer has no access to it. Apple's handling of iCloud data is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</p>
+    </div>
+
+    <div class="block">
+      <h3>Sharing a trip</h3>
+      <p>When you share a trip, Apple's iCloud sharing makes that trip available to the people you invite. They can see and edit its places, lists, plans, notes and photos, along with your display name and who added each place. You can stop sharing or remove participants at any time. Trips you haven't shared stay private.</p>
+    </div>
+
+    <div class="block">
+      <h3>Location</h3>
+      <p>With your permission, Haunts uses your location to show how far you are from saved places and to power the Nearby Places widget. If you turn on Nearby Reminders, Haunts asks for "Always" access so iOS can tell you when you're close to a place you want to visit, even when the app is closed.</p>
+      <p>Location is processed on your device. Haunts keeps only your most recent approximate position on the device so the widget can use it. It is never sent to us. You can change or revoke location access at any time in iOS Settings, and Haunts works without it.</p>
+    </div>
+
+    <div class="block">
+      <h3>Importing places from links</h3>
+      <p>When you share a link to Haunts (for example from Google Maps, Apple Maps, Instagram, TikTok or a restaurant's website), your iPhone contacts that website directly to read the place's name and address. That website receives an ordinary web request from your device, including your IP address, as it would if you opened the link in a browser. Haunts sends no cookies or account details with these requests and doesn't pass the link on to anyone else.</p>
+      <p>On iPhones with Apple Intelligence turned on, Haunts may use Apple's on-device language model to find a place name in a post's caption. This runs entirely on your iPhone.</p>
+    </div>
+
+    <div class="block">
+      <h3>Maps and search</h3>
+      <p>Maps, place search and travel times use Apple's MapKit. Search queries and map requests are handled by Apple under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</p>
+    </div>
+
+    <div class="block">
+      <h3>Other services Haunts contacts</h3>
+      <p>To provide a few features, your iPhone contacts these services directly. None of them receive your name, your device location or any account details, and Haunts doesn't send this data to us.</p>
+      <ul>
+        <li><strong>Apple WeatherKit</strong> receives the coordinates of your trip's destination (or, if that can't be worked out, of a place you've saved to the trip) to show the forecast in the trip guide. It is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</li>
+        <li><strong>Transport for London (TfL)</strong> receives the coordinates of two saved places when you view a public transport route between them in London. Powered by TfL Open Data.</li>
+        <li><strong>Frankfurter</strong> (api.frankfurter.dev) receives a pair of currency codes to show exchange rates in the trip guide.</li>
+        <li><strong>TikTok</strong> receives the link when you import a TikTok video, so Haunts can read its caption.</li>
+      </ul>
+      <p>These services receive an ordinary web request from your device, including your IP address.</p>
+    </div>
+
+    <div class="block">
+      <h3>Notifications, widgets and Siri</h3>
+      <p>Reminders are local notifications created on your iPhone. Widgets, Live Activities, Spotlight results and Shortcuts read your trips on your device. None of this sends data to us.</p>
+    </div>
+
+    <div class="block">
+      <h3>Deleting your data</h3>
+      <ul>
+        <li>Delete a trip, place or photo in the app. The deletion syncs to your other devices through iCloud.</li>
+        <li>To remove everything, delete Haunts from your iPhone, then remove its iCloud data in Settings → [your name] → iCloud → Manage Storage → Haunts.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Children</h3>
+      <p>Haunts isn't directed at children and doesn't knowingly collect information from anyone, including children.</p>
+    </div>
+
+    <div class="block">
+      <h3>Changes to this policy</h3>
+      <p>If Haunts starts handling data differently, we'll update this page and change the effective date above before the change reaches the app.</p>
+    </div>
+  </section>
+
+  <section id="support" aria-labelledby="support-h">
+    <div style="display:grid;gap:6px">
+      <span class="eyebrow">Help</span>
+      <h2 id="support-h">Support</h2>
+    </div>
+
+    <div class="contact">
+      <span>Questions, bugs or ideas? Email</span>
+      <code><a href="mailto:js.apps.support@gmail.com">js.apps.support@gmail.com</a></code>
+    </div>
+    <p style="color:var(--muted)">Please include your iOS version and the Haunts version, which you'll find in Settings → About in the app.</p>
+
+    <div>
+      <details>
+        <summary>How do I add a place from Google Maps, Instagram or TikTok?</summary>
+        <div><p>In the other app, tap Share and choose Haunts. Haunts reads the link, finds the place and lets you pick which trip and list to save it to. You can also paste a link with Add from Link on the map.</p></div>
+      </details>
+      <details>
+        <summary>How do I plan a trip with friends?</summary>
+        <div><p>Open the trip and tap the share button, then invite people through Messages, Mail or a link. Everyone needs to be signed in to iCloud. Anyone you invite can add places and edit the plan, and changes show up for everyone.</p></div>
+      </details>
+      <details>
+        <summary>My trips aren't syncing between devices.</summary>
+        <div>
+          <p>Check that you're signed in to the same Apple Account on each device and that iCloud is allowed for Haunts in iOS Settings. In Haunts, open Settings to see the iCloud status and tap Sync Now.</p>
+          <p>Haunts works fully offline, so anything you add without a connection syncs when you're back online.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Nearby Reminders aren't working.</summary>
+        <div><p>Nearby Reminders need notifications turned on and location access set to "Always" for Haunts in iOS Settings → Privacy &amp; Security → Location Services. They cover the places marked "Want to go" in your current trip.</p></div>
+      </details>
+      <details>
+        <summary>How do I delete my data?</summary>
+        <div><p>See <a href="#privacy">Deleting your data</a> in the privacy policy above.</p></div>
+      </details>
+    </div>
+  </section>
+
+  <footer>© 2026 Joshua Secker. Haunts is not affiliated with Google, Instagram or TikTok.</footer>
+</div>
+</body>
+</html>
