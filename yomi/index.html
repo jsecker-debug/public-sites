@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Privacy policy, terms and support for Yomi, the reading companion for iPhone and iPad.">
+<title>Yomi Privacy, Terms &amp; Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #f4f6f5;
+    --surface: #ffffff;
+    --ink: #17211f;
+    --muted: #56655f;
+    --rule: #d9e0dd;
+    --accent: #2c6b5a;
+    --accent-soft: #e2eeea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #101615; --surface: #172020; --ink: #e5ecea; --muted: #9aaba5;
+      --rule: #2a3533; --accent: #7cc4ae; --accent-soft: #1d2d29;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #101615; --surface: #172020; --ink: #e5ecea; --muted: #9aaba5;
+    --rule: #2a3533; --accent: #7cc4ae; --accent-soft: #1d2d29;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.6 "Source Sans 3", -apple-system, "Segoe UI", sans-serif;
+    padding-inline: 20px;
+    padding-block: 40px 64px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; display: grid; gap: 48px; }
+  header { display: grid; gap: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .ring { width: 36px; height: 36px; border-radius: 50%; border: 5px solid var(--accent); border-right-color: transparent; transform: rotate(-30deg); flex: none; box-sizing: border-box; }
+  h1, h2, h3 { font-family: "Bricolage Grotesque", "Source Sans 3", sans-serif; text-wrap: balance; margin: 0; }
+  h1 { font-size: 2.2rem; line-height: 1.1; letter-spacing: -0.01em; }
+  h2 { font-size: 1.6rem; line-height: 1.2; }
+  h3 { font-size: 1.1rem; line-height: 1.3; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  .lede { color: var(--muted); font-size: 1.08rem; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  nav a {
+    font-weight: 600; font-size: 0.95rem; color: var(--accent); text-decoration: none;
+    background: var(--accent-soft); padding: 6px 14px; border-radius: 999px;
+  }
+  nav a:hover, nav a:focus-visible { text-decoration: underline; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { display: grid; gap: 28px; scroll-margin-top: 24px; }
+  .eyebrow {
+    text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 600; color: var(--muted);
+  }
+  .block { display: grid; gap: 10px; padding-top: 22px; border-top: 1px solid var(--rule); }
+  .summary {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 12px;
+    padding: 20px 22px; display: grid; gap: 10px;
+  }
+  .summary ul { list-style: none; padding: 0; }
+  .summary li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; }
+  .summary li::before { content: "✓"; color: var(--accent); font-weight: 700; }
+  .contact {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 16px 20px;
+  }
+  .contact code {
+    font: 600 1rem/1.4 ui-monospace, "SF Mono", Menlo, monospace; user-select: all; overflow-wrap: anywhere;
+  }
+  details { border-top: 1px solid var(--rule); padding-top: 16px; }
+  details:last-of-type { border-bottom: 1px solid var(--rule); padding-bottom: 16px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 1.05rem; }
+  details > div { display: grid; gap: 10px; padding-top: 10px; color: var(--ink); }
+  footer { color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 480px) { h1 { font-size: 1.8rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><div class="ring" aria-hidden="true"></div><span class="eyebrow">Yomi for iPhone and iPad</span></div>
+    <h1>Privacy, Terms &amp; Support</h1>
+    <p class="lede">Yomi is a reading companion: track your books, and talk to it while you read to ask questions, save notes and keep your place. This page explains what happens to your data, the terms of use, and how to get help.</p>
+    <nav aria-label="Sections">
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <section id="privacy" aria-labelledby="privacy-h">
+    <div style="display:grid;gap:6px">
+      <span class="eyebrow">Effective 6 October 2026</span>
+      <h2 id="privacy-h">Privacy Policy</h2>
+    </div>
+
+    <div class="summary">
+      <h3>The short version</h3>
+      <ul>
+        <li>Your library lives on your device and in your own iCloud account. We can't see it.</li>
+        <li>No Yomi accounts, no ads, no analytics and no tracking. We don't sell data.</li>
+        <li>Your voice is transcribed on your device and never recorded or sent anywhere.</li>
+        <li>A question goes to an AI provider only after you've agreed, and you can turn that off at any time.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Who we are</h3>
+      <p>Yomi is a reading companion app for iPhone and iPad published by Joshua Secker ("we", "us"). If you have a question about this policy, email <a href="mailto:js.apps.support@gmail.com">js.apps.support@gmail.com</a>.</p>
+    </div>
+    <div class="block">
+      <h3>Information that stays with you</h3>
+      <p><strong>Your library.</strong> Books, reading progress, sessions, notes, commentary, quotes, reviews, rankings and goals are stored on your device. If you're signed in to iCloud, they sync through your private iCloud account using Apple's CloudKit. We can't see this data. Apple's handling of iCloud data is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</p>
+      <p><strong>Your voice.</strong> During a reading session Yomi uses your microphone and Apple's on-device speech recognition to hear requests. Transcription happens on your device. Audio is never recorded, stored or sent anywhere.</p>
+      <p><strong>Your camera.</strong> The camera is used to scan book barcodes and to capture passages from a page. Text is recognised on your device. Images aren't stored or sent anywhere.</p>
+      <p><strong>Settings.</strong> Your preferences are stored on your device.</p>
+      <p><strong>Widgets and Live Activities.</strong> Widgets show your current book from a copy stored on your device. The Lock Screen Live Activity can show the words of your requests; you can turn this off in Settings › Reading companion › Show requests on the Lock Screen.</p>
+    </div>
+    <div class="block">
+      <h3>AI answers (Anthropic)</h3>
+      <p>The first time Yomi would send a question to an AI service, it asks your permission and lists what is sent. If you allow it, each question you ask the companion is sent to Anthropic, PBC, which runs the Claude models that write the answer. Along with the question, Yomi sends:</p>
+      <ul><li>the book's title and author</li><li>where you're up to (page, chapter and percentage)</li><li>your recent notes and commentary on that book</li><li>earlier questions and answers from the same session, so follow-ups make sense</li></ul>
+      <p>Yomi doesn't send your name, email, Apple Account or any device identifier with these requests. Under Anthropic's commercial terms, API data isn't used to train its models, and it may be kept for a limited time for safety and abuse monitoring. See <a href="https://www.anthropic.com/legal/privacy" rel="noopener">Anthropic's Privacy Policy</a>.</p>
+      <p>If you choose "Not now", or turn off "Send questions to Claude" in Settings › Reading companion, nothing is sent and Yomi answers on your device where Apple Intelligence is available.</p>
+    </div>
+    <div class="block">
+      <h3>Natural voices (OpenAI)</h3>
+      <p>If you're a Premium subscriber and choose a natural voice, and you've agreed to it, the text of Yomi's spoken answers is sent to OpenAI to turn it into audio. Only the answer text is sent: never your voice, your question or your library. Turn off "Send answers to OpenAI" to use the system voice instead. See <a href="https://openai.com/policies/privacy-policy" rel="noopener">OpenAI's Privacy Policy</a>.</p>
+    </div>
+    <div class="block">
+      <h3>Our server</h3>
+      <p>Premium AI requests pass through a small server we run on Cloudflare. It checks your subscription, forwards your request to Anthropic or OpenAI and streams the reply back. It <strong>does not store the text of your questions or answers</strong>. It keeps only:</p>
+      <ul><li>an identifier for your subscription taken from the signed receipt Apple provides (not linked to your name, email or Apple Account)</li><li>your subscription status and expiry</li><li>monthly usage counts, used to apply fair-use limits</li><li>short-lived technical logs (for example, errors and request timings) without question or answer text, kept for 30 days</li></ul>
+      <p>Cloudflare processes this on our behalf. See <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare's Privacy Policy</a>.</p>
+    </div>
+    <div class="block">
+      <h3>Book search</h3>
+      <p>When you search for a book or scan a barcode, the search text or ISBN is sent to Open Library (Internet Archive) and Google Books to find editions and covers, and cover images are downloaded from them. They receive an ordinary web request from your device, including your IP address. See the <a href="https://archive.org/about/terms.php" rel="noopener">Internet Archive's terms</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</p>
+    </div>
+    <div class="block">
+      <h3>Purchases</h3>
+      <p>Subscriptions are handled by Apple. We never see your payment details. Apple tells the app, and our server, which subscription you have and when it renews or expires.</p>
+    </div>
+    <div class="block">
+      <h3>Legal basis (UK and EU)</h3>
+      <p>We rely on your <strong>consent</strong> to send questions and answers to AI providers (you can withdraw it at any time in Settings), and on <strong>performance of a contract</strong> to provide Premium and apply fair-use limits.</p>
+    </div>
+    <div class="block">
+      <h3>Keeping and deleting data</h3>
+      <ul><li>Delete a book in the app, or delete Yomi and remove its iCloud data in Settings → your name → iCloud → Manage Storage → Yomi.</li><li>Our server keeps subscription records while the subscription is active plus 12 months, and usage counts for the current and previous month.</li></ul>
+    </div>
+    <div class="block">
+      <h3>Your rights</h3>
+      <p>Depending on where you live, you may have rights to access, correct, delete or restrict the use of your information, to object, and to data portability. Because we don't hold your library and don't link server records to you, most requests can be handled on your device. For anything else, email <a href="mailto:js.apps.support@gmail.com">js.apps.support@gmail.com</a>. You can also complain to your data protection authority (in the UK, the <a href="https://ico.org.uk" rel="noopener">Information Commissioner's Office</a>).</p>
+    </div>
+    <div class="block">
+      <h3>Children</h3>
+      <p>Yomi isn't directed at children under 13 and we don't knowingly collect information from them.</p>
+    </div>
+    <div class="block">
+      <h3>Changes to this policy</h3>
+      <p>If we change what Yomi sends or who receives it, we'll update this page and change the effective date above, and the app will ask for your permission again before sending anything new.</p>
+    </div>
+  </section>
+
+  <section id="terms" aria-labelledby="terms-h">
+    <div style="display:grid;gap:6px">
+      <span class="eyebrow">Effective 6 October 2026</span>
+      <h2 id="terms-h">Terms of Use</h2>
+    </div>
+    <p>These terms are an agreement between you and Joshua Secker for your use of Yomi. They sit alongside Apple's Media Services Terms and the <a href="#privacy">Privacy Policy</a> above.</p>
+
+    <div class="block">
+      <h3>The licence</h3>
+      <p>You get a personal, non-transferable, non-exclusive licence to use Yomi on Apple devices you own or control, as allowed by the App Store's Usage Rules. You may not copy, modify, reverse engineer or redistribute the app except where the law allows it.</p>
+    </div>
+    <div class="block">
+      <h3>Your content</h3>
+      <p>Your library, notes, commentary, quotes and reviews are yours. We don't claim any rights in them.</p>
+    </div>
+    <div class="block">
+      <h3>Yomi Premium</h3>
+      <ul><li><strong>What it includes:</strong> answers from Claude, "Previously…" recaps and natural voices, as described on the subscription screen when you subscribe.</li><li><strong>Price and renewal:</strong> $6.99 a month or $49.99 a year, or the local equivalent shown in the App Store, charged to your Apple Account. <strong>The subscription renews automatically</strong> unless you turn off auto-renew at least 24 hours before the end of the current period.</li><li><strong>Free trial:</strong> new subscribers get a 7-day free trial. If you don't cancel at least 24 hours before it ends, it becomes a paid subscription.</li><li><strong>Managing and cancelling:</strong> in the Settings app → your name → Subscriptions.</li><li><strong>Refunds:</strong> handled by Apple at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</li><li><strong>Fair use:</strong> Premium is for personal use. We apply a generous monthly limit on AI answers and natural-voice audio. If you reach it, Yomi says so and answers on your device until it resets.</li></ul>
+    </div>
+    <div class="block">
+      <h3>AI answers</h3>
+      <p>Answers come from AI models run by third parties (Anthropic, and OpenAI for natural voices). They can be wrong or incomplete, and can occasionally reveal more of a story than intended. Treat them as a reading aid, not an authority, and not as professional, medical, legal or financial advice. Don't use the companion to generate unlawful content or anything that breaches Anthropic's or OpenAI's usage policies.</p>
+    </div>
+    <div class="block">
+      <h3>Acceptable use</h3>
+      <p>Don't try to bypass subscription checks or fair-use limits, extract API access, overload the service or use it for anything unlawful. We may suspend Premium access tied to a purchase used this way.</p>
+    </div>
+    <div class="block">
+      <h3>Third-party services</h3>
+      <p>Yomi relies on Apple, Open Library, Google Books, Anthropic, OpenAI and Cloudflare. Their availability isn't under our control, and features that depend on them may change or stop working.</p>
+    </div>
+    <div class="block">
+      <h3>Disclaimers and liability</h3>
+      <p>Yomi is provided "as is". To the extent the law allows, we don't promise it will be uninterrupted or error-free, and we aren't liable for indirect or consequential losses. Our total liability is limited to what you paid for Yomi in the 12 months before the claim. Nothing here limits liability that can't be limited by law, or your statutory rights as a consumer.</p>
+    </div>
+    <div class="block">
+      <h3>Apple</h3>
+      <p>These terms are between you and us, not Apple. Apple isn't responsible for Yomi or its content, has no obligation to provide maintenance or support, and, to the extent the law allows, has no warranty obligation beyond refunding the purchase price. We, not Apple, handle any claims about Yomi. You confirm you're not in a country subject to a US government embargo or on a US list of prohibited parties. Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them.</p>
+    </div>
+    <div class="block">
+      <h3>Changes and law</h3>
+      <p>If we make a significant change to these terms we'll tell you in the app first. These terms are governed by the laws of England and Wales; if you're a consumer, you keep the protection of the mandatory laws where you live.</p>
+    </div>
+  </section>
+
+  <section id="support" aria-labelledby="support-h">
+    <div style="display:grid;gap:6px">
+      <span class="eyebrow">Help</span>
+      <h2 id="support-h">Support</h2>
+    </div>
+
+    <div class="contact">
+      <span>Questions, bugs or ideas? Email</span>
+      <code><a href="mailto:js.apps.support@gmail.com">js.apps.support@gmail.com</a></code>
+    </div>
+    <p style="color:var(--muted)">In the app, Settings → Help → Email support fills in your app and iOS version. Send diagnostics also attaches the crash reports iOS keeps for Yomi, never your books, notes or questions.</p>
+
+    <div>
+      <details>
+        <summary>How do I talk to Yomi while I read?</summary>
+        <div><p>Start a reading session from a book, then say "Yomi" followed by your question, a note or a page number. You can turn off the need to say "Yomi" first in Settings → Reading companion.</p></div>
+      </details>
+      <details>
+        <summary>How do I cancel Yomi Premium?</summary>
+        <div><p>Open the Settings app → your name → Subscriptions → Yomi. Cancel at least 24 hours before the renewal date to avoid being charged for the next period.</p></div>
+      </details>
+      <details>
+        <summary>I subscribed on another device.</summary>
+        <div><p>In Yomi, open Settings → Yomi Premium and tap Restore Purchases.</p></div>
+      </details>
+      <details>
+        <summary>How do I get a refund?</summary>
+        <div><p>Refunds are handled by Apple at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p></div>
+      </details>
+      <details>
+        <summary>My library isn't syncing between devices.</summary>
+        <div><p>Check that you're signed in to the same Apple Account on each device and that iCloud is allowed for Yomi in iOS Settings. Yomi's Settings shows the reason if a sync fails.</p></div>
+      </details>
+      <details>
+        <summary>What gets sent to AI services?</summary>
+        <div><p>Only what you agree to. See <a href="#privacy">the privacy policy</a> above.</p></div>
+      </details>
+    </div>
+  </section>
+
+  <footer>© 2026 Joshua Secker. Yomi is not affiliated with Goodreads, Anthropic or OpenAI.</footer>
+</div>
+</body>
+</html>

@@ -11,6 +11,9 @@ https://jsecker-debug.github.io/public-sites/
 | App | Privacy Policy URL | Support URL |
 | --- | --- | --- |
 | Haunts | https://jsecker-debug.github.io/public-sites/haunts/#privacy | https://jsecker-debug.github.io/public-sites/haunts/#support |
+| Yomi | https://jsecker-debug.github.io/public-sites/yomi/#privacy | https://jsecker-debug.github.io/public-sites/yomi/#support |
+
+Yomi also has its terms of use at https://jsecker-debug.github.io/public-sites/yomi/#terms.
 
 ## Adding an app
 
